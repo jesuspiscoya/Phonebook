@@ -1,0 +1,22 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "Phonebook project with data on the backend server with NodeJs and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit"
+  },
+  "author": "Jesus Piscoya",
+  "license": "MIT",
+  "dependencies": {
+    "@flydotio/dockerfile": "^0.5.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
