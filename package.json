@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build:ui": "rd /s dist && cd ../Full-Stack-Open/part2/phonebook/ && npm run build && xcopy dist C:\\Users\\jesus\\Documents\\FullStackOpen\\Phonebook\\dist /E/H/I",
+    "deploy": "fly deploy",
+    "deploy:full": "npm run build:ui && npm run deploy",
+    "logs": "fly logs",
     "test": "echo \\\"Error: no test specified\\\" && exit"
   },
   "author": "Jesus Piscoya",
